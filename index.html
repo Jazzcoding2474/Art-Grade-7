@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Art</title>
-</head>
+<title>Art</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="https://i.pinimg.com/564x/a4/65/d5/a465d52780b5e9d14b1c37b5602cc9b4.jpg" />
 <style>
     body{
 background-color: 	 #333333;
-                font-family: sans-serif;
-            }
-
- h1{
-    height: 50px;
-    width:100%;
-   text-align: center;
-
-                    padding: 20px;
-                font-family:  Monaco;
-                color: white;
+margin:0px}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;
 }
-            p{
-    font-size:24px;
-    color: white}
+h1{
+margin-left:10px}
 
-.button {
-  border: none;
-  color: 	 #333333;
-  padding: 16px 32px;
-  text-align: center;
+p{
+
+ color: white
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #666666;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
 }
 
-.button1 {
-  background-color:	 #333333;
-  color: black;
-  border: 2px solid tomato;
+li a.active {
+  background-color: #04AA6D;
+  color: #dddddd;
 }
 
-.button1:hover {
-  background-color: tomato;
-  color: white;
+li a:hover:not(.active) {
+  background-color: #555;
+  color: #dddddd;
 }
-a {
-color: white;
+a{
+color:white
 }
-img{width: 450px}
-
 </style>
 <body>
-<h1 style = "border:2px solid Violet;">Butterfly Origami</h1>
-<button class="button button1"><a href="https://jazzcoding2474.github.io/MAPEH-Grade-7/">Go Back</a></button>
-<p></p>
+
+
+
+<!-- Sidebar -->
+<ul>
+  <li><a  href="https://jazzcoding2474.github.io/MAPEH-Grade-7/">MAPEH Page</a></li>
+  <li><a  href="https://jazzcoding2474.github.io/Music-Grade-7/">Music Page</a></li>
+  <li><a class="active"href="https://jazzcoding2474.github.io/Art-Grade-7/">Art Page</a></li>
+  <li><a href="https://jazzcoding2474.github.io/PE-Grade-7/">PE Page</a></li>
+
+</ul>
+
+<div class="w3-main" style="margin-left:260px">
+
+
+      <h1 class="w3-text-teal">Butterfly Origami</h1>
 <p>Origami is the art of paper-folding. Its name derives from Japanese words ori (“folding”) and kami (“paper”).</p>
 <img  src="https://i.pinimg.com/564x/15/50/d4/1550d4cd5f54aa04ebe8d3ccff305c66.jpg">
 <img  src="https://i.pinimg.com/564x/f4/a7/08/f4a70853285919067f6b6e31d8bb586a.jpg">
 <img  src="https://i.pinimg.com/564x/15/50/d4/1550d4cd5f54aa04ebe8d3ccff305c66.jpg">
-<h1 style = "border:2px solid Violet;">Finished Product</h1>
+<h1 class="w3-text-teal">Finished Product</h1>
 <img  src="https://i.pinimg.com/564x/e7/ac/f4/e7acf4b5359c6c1d3975bdb9dfbe5c95.jpg">
 <img  src="https://i.pinimg.com/564x/df/96/a1/df96a15ed3ef0e81c823ea95022d9e1e.jpg">
 
+
+</div>
 </body>
 </html>
+
